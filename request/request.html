@@ -1,0 +1,65 @@
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FABS TECHNOLOGY</title>
+	<link rel="stylesheet" type="text/css" href="reqstyle.css" />	
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+		<div id="header-inner">
+		<a href="index.html" id="logo"></a>
+			<nav>
+				<a href="#" id="menu-icon"></a>
+					<ul class="mainmenu">
+						<li><a href="index.html" class="current">HOME</a></li>
+						<li><a>FORM</a>
+							<ul class="submenu">
+								<li><a href="file:///C:/Users/DELL/Desktop/registration/reg.html">DONOR REGESTRATION</a></li>
+								<li><a href="file:///C:/Users/DELL/Desktop/request/request.html">REQUEST BLOOD</a></li>
+							</ul>
+						</li>
+						<li><a href="#">LOGIN</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+			</nav>
+		</div>
+	</header>
+	<form action="req.php" method="post">
+		<fieldset class="REQUEST_INFORMATION">
+			<legend>PATIENT DETAILS</legend>
+				<label for="P_name">PATIENT NAME:</label><input type="text" name="P_name" id="P_name">
+				<label for="blood_group">BLOOD GROUP:</label><input type="text" name="blood_group" id="blood_group">
+				<label for="p_city">CITY:</label><input type="text" name="p_city" id="p_city">
+				<label for="hosp_address">HOSPITAL NAME &amp; ADRESSS:</label><input type="text" name="hosp_address" id="hosp_address">
+		</fieldset>
+		<fieldset class="CONTACT_DETAILS">
+			<legend>CONTACT DETAILS</legend>
+				<label for="c_name">CONTACT NAME:</label><input type="text" name="c_name" id="c_name">
+				<label for="c_email">CONTACT EMAIL ID:</label><input type="text" name="c_email" id="c_email">
+				<label for="cnumber">CONTACT NUMBER:</label><input type="text" name="cnumber" id="cnumber">
+				<label for="omsg">OTHER MESSAGE:</label><input type="texr" name="omsg" id="omsg">
+				<label for="wreq">WHEN REQUIRE:</label><input type="date" placeholder="DD/MM/YYY" name="wreq" id="wreq">
+		</fieldset>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="checkbox" name="agree1" value="agree1"/> &nbsp;&nbsp;&nbsp;&nbsp;I agree to have my contact details broad-casted to the registered donor of FABS DESIGN.
+			<br/><br/>
+			<center><input type="submit" value="SUBMIT REQUEST " class="submit"/></center>
+	</form>			
+				
+	<footer>
+			<ul class="socialmedia">
+				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+			</ul>
+	</footer>
+	<!--End of footer-->
+		<footer class="second">
+			<p>&copy;FABS DESIGN</p>
+		</footer>
+	<!--End of second footer-->
+</body>
+</html>
